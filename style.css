@@ -43,7 +43,7 @@ nav ul li{
 nav ul li a {
 	text-decoration: none;
 	color: white;
-	font-size: 16px;
+	font-size: 14px;
 }
 nav ul li a:hover{
 	
@@ -271,14 +271,16 @@ nav ul li a:hover{
  .top-menu ul li{
  	display: inline-block;
  	border-right: 1px solid white;
- 	padding-right: 8px;
+ 	padding: 0 10px;
  	
  }
 
+.top-menu ul li:first-child{
+	
+	padding-left: 0px;
+}
 .top-menu ul li:last-child{
-	border-right:none;
-	padding-right: 0px;
-
+	border-right: none;
 }
 
 
@@ -335,6 +337,7 @@ nav ul li a:hover{
    	.service-1{
    		width: 20%;
    	}
+
    	.box-1{
    		width: 27%;
    		padding: 0 26px;
@@ -344,7 +347,7 @@ nav ul li a:hover{
    	.top-menu ul li a {
    		font-size: 12px;}
    	.buttom-menu p{
-   		font-size: 12px;
+   		font-size: 10px;
    	}	
    	.top-menu{
    		width: 116%;
@@ -359,22 +362,27 @@ nav ul li a:hover{
  	padding-top: 50px;
  }
 .tr{ font-size: 13.5px; }
+
+.top-menu ul li{
+		padding: 0 4px;
+	}
+	.banner-1 {
+			margin-top: 50px;
+	}
 }
    		
   
    
-@media only screen and (max-width: 767.98px) and (min-width: 576px) {}
+@media only screen and (max-width: 767.98px) and (min-width: 576px) {
 	nav ul li a  {
-		font-size: 12px;	
+		font-size: 14px;	
 		}
 	nav ul li {
 		padding-right: 6px; }
 
-		.banner-1 {
-  margin-top: 35px;
 
-	}
 
+}
 
 
 
@@ -398,6 +406,7 @@ nav ul li a:hover{
 
 .banner-1 {
     width: 100%;
+    margin-top: 50px;
 }
 .banner-1 h1{
 	font-size: 35px;
